@@ -1,0 +1,12 @@
+{
+  "modules": true,
+  "plugins": {
+    "postcss-import": true,
+    "postcss-nested": true,
+    "postcss-cssnext": {
+        "features": {
+            "rem": false,
+        }
+    }
+  }
+}
