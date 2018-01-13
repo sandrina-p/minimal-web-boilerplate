@@ -100,7 +100,7 @@ function logSquare(value) {
   console.log(`Square of ${value}:`, value * value * value);
   return value * value * value;
 }
-},{}],5:[function(require,module,exports) {
+},{}],6:[function(require,module,exports) {
 "use strict";
 
 var _logs = require("./shared/scripts/logs");
@@ -124,7 +124,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':51167/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':55880/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
@@ -225,4 +225,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,5])
+},{}]},{},[0,6])
