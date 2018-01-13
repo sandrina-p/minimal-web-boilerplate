@@ -25,6 +25,7 @@
     "postcss-import": "^11.0.0",
     "postcss-modules": "^1.1.0",
     "postcss-nested": "^3.0.0",
-    "stylelint": "8.x"
+    "stylelint": "8.x",
+    "stylelint-config-standard": "^18.0.0"
   }
 }
