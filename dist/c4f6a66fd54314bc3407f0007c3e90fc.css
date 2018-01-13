@@ -454,7 +454,6 @@ template {
 [hidden] {
   display: none;
 }
-@media :root {
 html {
     font-family: sans-serif;
     -webkit-box-sizing: border-box;
@@ -465,7 +464,6 @@ html {
         -webkit-box-sizing: inherit;
                 box-sizing: inherit;
     }
-}
 .container {
   text-align: center;
   padding-top: 1rem;
@@ -475,7 +473,7 @@ html {
 .greetings {
   font-family: AldoTheApache;
   font-size: 3rem;
-  color: var(--clrSuper);
+  color: #008080;
   margin: 1rem 0;
 }
 
@@ -484,7 +482,7 @@ html {
 }
 
 .link {
-  color: var(--clrSuper);
+  color: #008080;
   text-decoration: none;
 }
 
