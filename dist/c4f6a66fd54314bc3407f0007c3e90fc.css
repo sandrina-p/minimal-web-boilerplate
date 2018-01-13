@@ -466,30 +466,30 @@ html {
             box-sizing: inherit;
   }
 }
-._container_18udr_7 {
+.container {
   text-align: center;
   padding-top: 1rem;
   line-height: 1.5;
 }
 
-._greetings_18udr_13 {
+.greetings {
   font-family: AldoTheApache;
   font-size: 3rem;
   color: var(--clrSuper);
   margin: 1rem 0;
 }
 
-._speech_18udr_20 {
+.speech {
   font-style: italic;
 }
 
-._link_18udr_24 {
+.link {
   color: var(--clrSuper);
   text-decoration: none;
 }
 
-._link_18udr_24:hover,
-  ._link_18udr_24:focus {
+.link:hover,
+  .link:focus {
     text-decoration: underline;
     opacity: 0.6;
   }

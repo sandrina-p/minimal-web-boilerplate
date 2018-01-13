@@ -9,7 +9,7 @@
   "author": "Sandrina Pereira <sandrin4pereir4@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "parcel ./src/index.html",
+    "start": "parcel ./src/index.html --no-cache",
     "build": "parcel build ./src/index.html",
     "test": "jest --coverage"
   },
@@ -25,6 +25,7 @@
     "postcss-import": "^11.0.0",
     "postcss-modules": "^1.1.0",
     "postcss-nested": "^3.0.0",
+    "posthtml-include": "^1.1.0",
     "stylelint": "8.x"
   }
 }
