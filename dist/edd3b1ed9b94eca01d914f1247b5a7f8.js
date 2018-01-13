@@ -69,7 +69,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({7:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -100,13 +100,13 @@ function logSquare(value) {
   console.log(`Square of ${value}:`, value * value * value);
   return value * value * value;
 }
-},{}],6:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 "use strict";
 
 var _logs = require("./shared/scripts/logs");
 
 (0, _logs.logSquare)(3);
-},{"./shared/scripts/logs":9}],0:[function(require,module,exports) {
+},{"./shared/scripts/logs":7}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -124,7 +124,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':63904/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':51167/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
@@ -225,4 +225,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,6])
+},{}]},{},[0,5])
